@@ -1,0 +1,93 @@
+*{
+    /* border: 1px solid #000; */
+}
+body, html{
+    margin: 0px;
+    font-size: 100%;
+    background-color: #626262;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+header{
+    /* background-color: #ffcdcd; */
+    height: 100px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/1024px-Roasted_coffee_beans.jpg");
+}
+header h1{
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0px;
+}
+.main, header, footer{
+    width: 900px; /*這裡如果沒有設，就是滿版*/
+}
+.main{
+    display: flex;
+    background-color: #fff;
+}
+.main aside{
+    width: 200px;
+}
+.main aside .aside-title{
+    padding: 6px;
+    background-color: #ff5500;
+    color: #fff;
+}
+.main aside ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.main aside ul li{}
+.main aside ul li a{
+    display: block;
+    /* width: 100%; */
+    padding: 4px 6px;
+    text-decoration: none;
+    background-color: #00559e;
+    color: #fff;
+    transition: all 1s;
+}
+.main aside ul li a:hover{
+    background-color: #78c0ff;
+    color: #494949;
+}
+.main .content{
+    width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main .content h2{
+    padding: 0px;
+    margin: 0px;
+}
+.main .content hr{
+    border: none;
+    border-bottom: 1px solid #666;
+}
+.main .content p{
+    font-size: 1.125em;
+    line-height: 1.75em;
+}
+footer{
+    padding: 20px 0;
+    background-color: #dddddd;
+    text-align: center;
+}
+footer .info{}
+footer .info h4{
+    font-size: 1.875em;
+    padding: 0px;
+    margin: 0px;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+footer ul li{}
+footer p{
+   font-size: 0.875em;
+}

@@ -1,0 +1,64 @@
+body{
+    /* 快捷鍵: fz100p + tab */
+    font-size: 100%;
+    /* 快捷鍵: bgc + tab */
+    background-color: #494848;
+    color: #ffffff;
+  }
+  h1{
+    /* 快捷鍵: fz3em + tab */
+    font-size: 3em;
+    color:#d2fcd7 ;
+  }
+  h2{
+    /* em跟px差別就是em會跟著body font: 100% 放大縮小。因為em是去繼承body font */
+    font-size: 2.5em;
+    color: #ffd1f9;
+  }
+  h3{
+    font-size: 2.25em;
+    color: #a1c5f6;
+  }
+  h4{
+    font-size: 2em;
+    color: #f7f3ad;
+  }
+  p{
+    font-size: 1em;
+  }
+  /* ul li代表是 ul底下的li標籤 */
+  ul li{
+    font-size: 1.125em;
+  }
+  /* ol li代表是 ol底下的li標籤 */
+  ol li{
+    font-size: 1.125em;
+  }
+  .wrap{
+    width: 700px;
+    /* 快捷鍵: bgc + tab */
+    background-color: #7862ef14;
+    margin-right: auto;
+    margin-left: auto; /* margin是外距 */
+
+    /* 快捷鍵: p20px + tab */
+    padding: 20px;  /* padding是內距，輸入之後自跟邊框就分開了 */
+  }
+
+/* 不可以放空的ul{} ol{}，空的就要刪掉 */
+
+  /* 如果要偷懶可以全部放在a{}裡面 */
+  /* 建議順序按照以下這樣寫 */
+  a:link{
+    color: #de6f20;
+  }
+  a:visited{
+    color: #a5a1a1;
+  }
+  a:hover{
+    color: #f3f35e;
+  }
+  a:active{
+    color: #ff0000;
+  }
+  

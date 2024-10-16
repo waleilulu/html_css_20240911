@@ -1,0 +1,80 @@
+/* *{
+    border: 1px solid #000;
+} */
+body, html{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 959px;
+}
+.main header{
+    border-bottom: 1px solid #000;
+    height: 25px;
+    margin-bottom: 100px;
+}
+.main h1{
+    font-size: 2em;
+    text-align: center;
+    background-color: #fff;
+    width: 160px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.slidebox{
+    display: flex;
+}
+.card{
+    width: 293px;
+    min-height: 460px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card .topbox{
+    height: 220px;
+    background-color: #acd7ff;
+    overflow: hidden;
+    z-index: 1;
+}
+.card .topbox img{
+    width: auto;
+    height: 100%;
+    transition: all 0.5s;
+    transform: scale(1);
+}
+.card .topbox img:hover{
+    transform: scale(1.5);
+}
+.card .content{
+    margin-top: -30px;
+    width: 260px;
+    height: 220px;
+    /* background-color: rgba(255, 232, 60,0.2); rgb加上a (數值後面再加入,一個參數: 0-1顯示透明度) */
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    box-shadow: 2px 2px 20px #898989;
+}
+.card .content h2 {
+    padding-bottom: 0.25em;
+    transition: all 1s;
+}
+.card .content h2::after{
+    content: "";
+    display: block;
+    width: 10%;
+    transition: all 1s;
+    border-bottom: 2px solid #000;
+}
+.card .content h2:hover{
+    color: #ff5555;
+}
+.card .content h2:hover::after{
+    width: 100%;
+    border-bottom: 2px solid #fe9999;
+}

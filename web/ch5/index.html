@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tw-zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- 要用RWD一定要有viewport -->
+    <title>Document</title>
+    <style>
+        /*全域*/
+        body, html{
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #666;
+        }
+        header, .main, footer{
+            width: 900px;
+        }
+        header{
+            height: 250px;
+            background-color: #fc7a7a;
+        }
+        .main{
+            height: 400px;
+            background-color: #ffc800;
+        }
+        footer{
+            height: 150px;
+            background-color: #bbb;
+        }
+        @media screen and (max-width: 1200px) {}
+        @media screen and (max-width: 992px) {}
+        @media screen and (max-width: 768px) {}
+        @media screen and (max-width: 680px) {
+            header, .main, footer{
+                width: 100vw;
+        }
+        @media screen and (max-width: 480px) {
+            header{
+                background-color: #7a0afb;
+                display: none; /* 用響應式的時候如果不要出現特定區塊可以隱藏 */
+            }
+        }
+        }
+        @media screen and (max-width: 414px) {
+            
+        }
+        @media screen and (max-width: 320px) {}
+    </style>
+</head>
+<body>
+    <header>
+        <p>header</p>
+    </header>
+    <div class="main">
+        <p>main</p>
+    </div>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+</html>

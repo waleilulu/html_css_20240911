@@ -1,0 +1,27 @@
+body, html{
+/* padding: 0px; 這個不被應用 */
+  margin: 0px;
+}
+header, section, footer{
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+/* margin: 0 auto 0 auti; 記法 上下左右 */
+/* margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto; */
+}
+header{
+  height: 200px;
+  background-color: #555;
+}
+section{
+  height: 300px;
+
+  background-color: #777;
+}
+footer{
+  height: 100px;
+  background-color: #666;
+}
